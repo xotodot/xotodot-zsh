@@ -1,0 +1,4 @@
+# CUSTOM DOT FILES TO KEEP OFF GIT
+
+.zcompdump
+.antigenrc.zwc
