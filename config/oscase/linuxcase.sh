@@ -13,3 +13,6 @@
 alias open="xdg-open $1"
 alias bat="bat $1 --theme=GitHub --paging=never --style=changes"
 alias cat="bat $1 --theme=GitHub --paging=never --style=changes"
+
+
+alias idea=open -na "IntelliJ IDEA.app" --args "$@"
