@@ -7,7 +7,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 
 # REDIRECT HOMEBREW (MAC)
-export PATH="/usr/local/sbin:$PATH"
+# export PATH="/usr/local/sbin:$PATH"
 
 # ZSH DIR
 # export ZSH_COMPDUMP=$HOME/.config/zsh/.zcompdump
@@ -16,7 +16,7 @@ export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$HOME/.config/zsh/.zsh_history"
 
 # USER CONFIGURATION
-export MANPATH="/usr/local/man:$MANPATH"
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # SSH
 export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
@@ -25,19 +25,19 @@ export SSH_KEY_PATH="$HOME/.ssh/rsa_id"
 export ANTIGEN_BUNDLE_RECORD="$HOME/.antigen/bundles"
 
 # JAVA MAC
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
-export PATH=$PATH:$JAVA_HOME/bin
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+# export PATH=$PATH:$JAVA_HOME/bin
 
 # JAVA SDK MAN
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# export SDKMAN_DIR="$HOME/.sdkman"
+# [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # GRADLE
 export GRADLE_HOME=/opt/gradle/latest
 export PATH=${GRADLE_HOME}/bin:${PATH}
 
 # PYTHON AND PIP
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+# export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 
@@ -63,9 +63,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # YARN
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH="/usr/local/opt/libxml2/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/qt/bin:$PATH"
+# export PATH="/usr/local/opt/libxml2/bin:$PATH"
+# export PATH="/usr/local/sbin:$PATH"
+# export PATH="/usr/local/opt/qt/bin:$PATH"
 
 # DEFAULT APPS
 export TERMINAL="alacritty"
@@ -80,7 +80,7 @@ export PNPM_HOME="$HOME/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 
 # LVIM
-export PATH=$PATH:$HOME/.local/bin
+# export PATH=$PATH:$HOME/.local/bin
 
 # RBENV
 # if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

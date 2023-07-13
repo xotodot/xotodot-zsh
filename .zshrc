@@ -15,8 +15,9 @@
 #############
 
 export ZDOTDIR=$HOME/.config # DOT FILE DIR
-export PATH=$HOME/bin:/usr/local/bin:$PATH # LOCAL
-export PATH=/bin:/usr/bin:$PATH # USR
+export PATH="/usr/local/opt/man-db/libexec/bin:$PATH"
+# export PATH=$HOME/bin:/usr/local/bin:$PATH # LOCAL
+# export PATH=/bin:/usr/bin:$PATH # USR
 export ZSH=$HOME/.oh-my-zsh # Path oh-my-zsh installation
 
 ######################
@@ -34,11 +35,12 @@ source $ZSH/oh-my-zsh.sh
 ##########
 # ZSH INIT
 ##########
+# export PATH="usr/bin/gunzip:$PATH"
 
 source "$HOME/.config/zsh/config/zsh.sh" # ZSH
 
 # add these lines:
-export PATH="$PATH:$HOME/npm/bin"
+# export PATH="$PATH:$HOME/npm/bin"
 export NODE_PATH="$NODE_PATH:$HOME/npm/lib/node_modules"
 
 #########
@@ -148,3 +150,10 @@ MINGW*)
   ;;
 esac
 
+# # export PATH="usr/bin/gunzip:$PATH"
+
+# export PATH=/usr/bin:/bin
+# export PATH="$HOME/.local/bin:$PATH"
+
+eval `ssh-agent -s` > /dev/null
+ssh-add ~/.ssh/mac/id_rsa_xotosphere 2>/dev/null

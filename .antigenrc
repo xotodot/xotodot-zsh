@@ -4,7 +4,7 @@ antigen bundle git-flow
 antigen bundle autojump
 antigen bundle git-extras
 antigen bundle supercrabtree/k
-antigen bundle gko/ssh-connect
+# antigen bundle gko/ssh-connect
 antigen bundle tmux
 antigen bundle favware/zsh-lerna
 antigen bundle kubernetes

@@ -11,7 +11,10 @@ CASE_SENSITIVE="false"
 HIST_STAMPS="dd.mm.yyyy"
 # ZSH_AUTOSUGGEST_ACCEPT_WIDGETS=("${(@)ZSH_AUTOSUGGEST_ACCEPT_WIDGETS:#forward-char}")
 # zsh autosuggest
-ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion history) # history
+# ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion history) # history
+# ZSH_AUTOSUGGEST_STRATEGY=(completion history) 
+ZSH_AUTOSUGGEST_STRATEGY=(completion) 
+
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 ZSH_THEME="spaceship"
 
