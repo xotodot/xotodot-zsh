@@ -155,5 +155,5 @@ esac
 # export PATH=/usr/bin:/bin
 # export PATH="$HOME/.local/bin:$PATH"
 
-eval `ssh-agent -s` > /dev/null
-ssh-add ~/.ssh/mac/id_rsa_xotosphere 2>/dev/null
+# eval `ssh-agent -s` > /dev/null
+# ssh-add ~/.ssh/mac/id_rsa_xotosphere 2>/dev/null
