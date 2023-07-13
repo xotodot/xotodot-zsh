@@ -4,7 +4,7 @@ antigen bundle git-flow
 antigen bundle autojump
 antigen bundle git-extras
 antigen bundle supercrabtree/k
-# antigen bundle gko/ssh-connect
+antigen bundle gko/ssh-connect
 antigen bundle tmux
 antigen bundle favware/zsh-lerna
 antigen bundle kubernetes
@@ -21,7 +21,7 @@ antigen bundle voronkovich/gitignore.plugin.zsh
 antigen bundle command-not-found
 antigen bundle web-search
 antigen bundle akoenig/npm-run.plugin.zsh
-# antigen bundle lukechilds/zsh-nvm
+antigen bundle lukechilds/zsh-nvm
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle compleat
 antigen bundle zsh-users/zsh-completions
